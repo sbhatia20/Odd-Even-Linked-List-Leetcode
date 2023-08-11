@@ -1,1 +1,2 @@
 # Odd-Even-Linked-List-Leetcode
+Firstly, we have copied the content of the linked list into a vector. Then we started inserting the values into a newly created linked list. Here, we want all values with odd indices together, followed by values with even indices. However, since a vector's indexing starts at zero, we must first add values with even indices (odd indices in linked list), then values with odd indices (even indices in linked list).
